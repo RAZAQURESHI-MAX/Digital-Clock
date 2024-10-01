@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.parent{
+    border: 5px inset black;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+.heading{
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+    
+  
+}
+.spans{
+    display: flex;
+    justify-content: center;
+}
+.spans_2{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    
+}
+
+
+@media screen and ( max-width:435px) {
+    .parent{
+         
+        width: 100%;
+    }
+
+    .grand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30%;
+        
+    }
+    
+}
+
+
+
+@media screen and ( min-width:1890px) {
+    .heading{
+        font-size: xx-large;
+    }
+
+    .spans{
+        font-size: x-large;
+    }
+
+    .spans_2{
+        font-size: x-large;
+    }
+}
